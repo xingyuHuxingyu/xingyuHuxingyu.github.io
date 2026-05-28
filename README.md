@@ -1,23 +1,29 @@
-# 个人主页
+# 胡兴宇的个人主页
 
-基于 [hexiangnan/hexiangnan.github.io](https://github.com/hexiangnan/hexiangnan.github.io) 的模板改造而来，已清空所有个人信息，只保留 HTML/CSS 骨架。
+基于 [hexiangnan/hexiangnan.github.io](https://github.com/hexiangnan/hexiangnan.github.io) 的模板改造，内容来源于个人简历。
 
-## 如何修改
+线上地址：https://xingyuHuxingyu.github.io
 
-直接编辑根目录的 `index.html`：
+## 文件结构
 
-- 顶部 `<title>` 和 `<meta>` —— 改成你的名字和关键词。
-- `#news` —— 右侧 News 栏，每条新闻一个 `<b>日期</b>` + `<span class="easylink">内容</span>` 块。
-- `#left` 第一个 `<table>` —— 个人信息卡片：照片、姓名、职位、单位、地址、邮箱。把 `./files/profile.svg` 替换成你自己的照片（建议放到 `./files/` 目录下）。
-- `.box` —— 简短自我介绍。
-- `Recent Tutorials` / `Selected Publications` —— 复制其中一个 `<table>` 块，按格式增加条目；PDF 路径建议放到 `./papers/` 子目录。
-- `Invited Talks` / `Professional Services` / `Experiences` / `Education` / `Useful Links` —— 同上，按需增删。
-- 底部 `Last update:` —— 改成最近更新日期。
+- `index.html` —— 主页内容
+- `files/style.css` —— 样式表（深蓝 #0a2245 主色、Georgia 字体、固定 927px 宽度）
+- `files/profile.jpg` —— 个人照片（244×370，从简历中提取）
+- `files/pdf.gif` —— 论文条目的 PDF 小图标
+- `.nojekyll` —— 让 GitHub Pages 直接把 HTML 当静态文件服务
 
-## 样式
+## 如何更新内容
 
-样式表在 `./files/style.css`，整体走老派学术主页风格（深蓝 #0a2245 主色、Georgia 字体、固定 927px 宽度）。如需调整配色或宽度直接改这个文件即可。
+直接编辑 `index.html`：
 
-## 之前的版本
+- `<title>` / `<meta>` —— 标题和 SEO 关键词
+- `#news` —— 右侧 News 栏，每条新闻一个 `<b>日期</b>` + `<span class="easylink">内容</span>` 块
+- `#left` 第一个 `<table>` —— 个人卡片（照片、姓名、职位、单位、邮箱、GitHub）
+- `.box` —— 自我介绍
+- `Publications` —— 论文条目（目前只列第一作者，新论文按现有 `<table>` 格式增加）
+- `Awards & Honors` / `Industry Experience` / `Education` / `Skills & Languages` —— 按需增删
+- 底部 `Last update:` —— 最近更新日期
 
-旧的 academicpages 模板已保存在 `backup-academicpages` 分支，需要的时候可以 `git checkout backup-academicpages` 找回。
+## 备份
+
+之前 academicpages 模板的内容保存在 [`backup-academicpages`](https://github.com/xingyuHuxingyu/Huxingyu.github.io/tree/backup-academicpages) 分支。
