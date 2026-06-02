@@ -31,6 +31,12 @@ TABLE {
 .title {
 	FONT-WEIGHT: bold
 }
+.awards-list TD DIV {
+	LINE-HEIGHT: 1.45; MARGIN-BOTTOM: 7px
+}
+.awards-list TD DIV:last-child {
+	MARGIN-BOTTOM: 0px
+}
 TABLE A {
 	COLOR: black; TEXT-DECORATION: none
 }
