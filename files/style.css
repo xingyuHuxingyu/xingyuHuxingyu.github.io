@@ -16,6 +16,9 @@ BODY {
 H1 {
 	FONT-SIZE: 30px; MARGIN: 0px; DISPLAY: inline
 }
+.profile-info {
+	FONT-SIZE: 15px
+}
 H2 {
 	FONT-SIZE: 20px; PADDING-TOP: 15px; display:inline-block;   
 }
