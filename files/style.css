@@ -103,6 +103,9 @@ A.thumbnail:hover {
 #news .easylink {
 	FONT-SIZE: 0.8em; FONT-WEIGHT: normal
 }
+#visitor-map {
+	CLEAR: both; MARGIN-TOP: 18px; TEXT-ALIGN: left
+}
 .inbox {
 	PADDING-BOTTOM: 7px; MARGIN-TOP: 5px
 }
