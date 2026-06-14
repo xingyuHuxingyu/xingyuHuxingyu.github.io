@@ -103,6 +103,12 @@ A.thumbnail:hover {
 #news .easylink {
 	FONT-SIZE: 0.8em; FONT-WEIGHT: normal
 }
+#award-photo {
+	CLEAR: both; MARGIN-TOP: 14px; MARGIN-BOTTOM: 16px
+}
+#award-photo IMG {
+	MAX-WIDTH: 680px; WIDTH: 100%; HEIGHT: auto
+}
 #visitor-map {
 	CLEAR: both; MARGIN-TOP: 18px; TEXT-ALIGN: left
 }
