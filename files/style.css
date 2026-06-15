@@ -103,11 +103,17 @@ A.thumbnail:hover {
 #news .easylink {
 	FONT-SIZE: 0.8em; FONT-WEIGHT: normal
 }
-#award-photo {
-	CLEAR: both; MARGIN-TOP: 14px; MARGIN-BOTTOM: 16px
+#gallery {
+	CLEAR: both; MARGIN-BOTTOM: 10px; WIDTH: 680px
 }
-#award-photo IMG {
-	MAX-WIDTH: 680px; WIDTH: 100%; HEIGHT: auto
+.gallery-item {
+	BACKGROUND-COLOR: #f6fbfe; PADDING: 5px
+}
+.gallery-item IMG {
+	WIDTH: 100%; HEIGHT: auto
+}
+.gallery-caption {
+	FONT-SIZE: 13px; MARGIN-TOP: 5px; TEXT-ALIGN: center
 }
 #visitor-map {
 	CLEAR: both; MARGIN-TOP: 18px; TEXT-ALIGN: left
