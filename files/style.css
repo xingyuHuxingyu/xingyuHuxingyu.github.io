@@ -110,7 +110,7 @@ A.thumbnail:hover {
 	BACKGROUND-COLOR: #f6fbfe; PADDING: 5px
 }
 .gallery-item IMG {
-	MAX-WIDTH: 100%; HEIGHT: auto; DISPLAY: block
+	MAX-WIDTH: 520px; WIDTH: 100%; HEIGHT: auto; DISPLAY: block; MARGIN-LEFT: auto; MARGIN-RIGHT: auto
 }
 .gallery-caption {
 	FONT-SIZE: 13px; MARGIN-TOP: 5px; TEXT-ALIGN: center
