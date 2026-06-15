@@ -104,7 +104,7 @@ A.thumbnail:hover {
 	FONT-SIZE: 0.8em; FONT-WEIGHT: normal
 }
 #gallery {
-	CLEAR: both; MARGIN-BOTTOM: 10px; MARGIN-LEFT: auto; MARGIN-RIGHT: auto; MAX-WIDTH: 560px; WIDTH: 100%
+	CLEAR: both; MARGIN-BOTTOM: 10px; WIDTH: 680px
 }
 .gallery-item {
 	BACKGROUND-COLOR: #f6fbfe; PADDING: 5px
