@@ -104,13 +104,13 @@ A.thumbnail:hover {
 	FONT-SIZE: 0.8em; FONT-WEIGHT: normal
 }
 #gallery {
-	CLEAR: both; MARGIN-BOTTOM: 10px; WIDTH: 680px
+	CLEAR: both; MARGIN-BOTTOM: 10px; MARGIN-LEFT: auto; MARGIN-RIGHT: auto; MAX-WIDTH: 560px; WIDTH: 100%
 }
 .gallery-item {
 	BACKGROUND-COLOR: #f6fbfe; PADDING: 5px
 }
 .gallery-item IMG {
-	WIDTH: 100%; HEIGHT: auto
+	MAX-WIDTH: 100%; HEIGHT: auto; DISPLAY: block
 }
 .gallery-caption {
 	FONT-SIZE: 13px; MARGIN-TOP: 5px; TEXT-ALIGN: center
